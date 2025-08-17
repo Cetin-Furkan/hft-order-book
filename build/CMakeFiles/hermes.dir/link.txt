@@ -1,0 +1,1 @@
+/opt/intel/oneapi/compiler/2025.2/bin/icx -O3 -DNDEBUG -O3 -march=native -flto CMakeFiles/hermes.dir/src/main.c.o CMakeFiles/hermes.dir/src/network.c.o CMakeFiles/hermes.dir/src/orderbook.c.o CMakeFiles/hermes.dir/src/spsc_queue.c.o CMakeFiles/hermes.dir/src/sequencer.c.o -o hermes  -lpthread -lm 

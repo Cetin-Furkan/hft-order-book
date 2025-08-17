@@ -1,0 +1,1 @@
+/opt/intel/oneapi/compiler/2025.2/bin/icx -O3 -DNDEBUG -O3 -march=native -flto CMakeFiles/send_test_packet.dir/src/send_test_packet.c.o -o send_test_packet  -lpthread -lm 
