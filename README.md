@@ -86,7 +86,7 @@ This system requires a modern toolchain compliant with the C23 standard.
 
 ```bash
 # Compile with C23 standard, Level 3 Optimization, and all warnings enabled
-gcc -std=c2x -O3 -Wall -Wextra -Wpedantic itch-reader/itch_protocol.c -o nasdaq_feed
+gcc -std=c23 -O3 -Wall -Wextra -Wpedantic itch-reader/itch_protocol.c -o nasdaq_feed
 ```
 
 **Execution:**
